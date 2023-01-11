@@ -26,8 +26,7 @@ defaults:
     shell: bash
 
 jobs:
-  # Build job
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
