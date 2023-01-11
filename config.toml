@@ -2,7 +2,7 @@ baseURL = "https://shinyzhu.com/"
 DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = "IT's Shiny"
-copyright = "2023, Shiny Zhu, CC BY-NC-SA 4.0"
+copyright = "2023, Shiny Zhu"
 theme = "diary"
 
 googleAnalytics = "G-6BNX000R1H"
@@ -18,7 +18,7 @@ favicon = "/favicon.ico"
 enableOpenGraph = true
 enableTwitterCards = true
 title = "IT's Shiny" # will set 'og:site_name'
-description = "DevRel, Community, Learning etc from Shiny Zhu."  # will set 'og:description'
+description = "DevRel, Community, Learning etc from Shiny Zhu." # will set 'og:description'
 
 
 [params.utterances]
@@ -41,7 +41,7 @@ description = "DevRel, Community, Learning etc from Shiny Zhu."  # will set 'og:
     weight = 3
 [[menu.main]]
     url = "/index.xml"
-    name = "RSS Feed"
+    name = "RSS"
     weight = 4
 
 [taxonomies]
