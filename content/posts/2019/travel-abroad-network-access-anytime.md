@@ -1,7 +1,7 @@
 ---
 title: "短期出国旅行如何随时随地上网"
 description: "带着手机就出国门，随时随地上网打电话收发短信"
-date: 2019-10-06
+date: 2019-10-06T11:00:00+08:00
 lastmod: 2023-01-11
 featured_image: "/posts/2019/travel-abroad-network-access-anytime/post-travel-tips.png"
 tags: [travel]

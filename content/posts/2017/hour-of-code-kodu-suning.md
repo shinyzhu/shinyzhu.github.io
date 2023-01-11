@@ -1,9 +1,9 @@
 ---
 title: "Hour of Code - Kodu少儿编程思维训练营活动后记"
 description: "MVP社区与苏宁微软零售店携手举办 “Hour of Code - Kodu少儿编程思维训练营” 公益活动在上海浦东苏宁微软零售店成功举办"
-date: 2017-04-16
+date: 2017-04-16T11:00:00+08:00
 lastmod: 2023-01-11
-tags: [hour_of_code, stem]
+tags: ["hour of code", stem]
 featured_image: "/posts/2017/hour-of-code-kodu-suning/hour-of-code-banner.jpg"
 categories: STEM
 comment : true

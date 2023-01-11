@@ -1,7 +1,7 @@
 ---
 title: "我的第一个图数据模型：使用Neo4j存储航班计划数据"
 description: "Neo4j是图数据库平台，存储关联数据。"
-date: 2021-09-05
+date: 2021-09-05T11:00:00+08:00
 lastmod: 2023-01-11
 featured_image: "/posts/2021/flight-schdule-in-graph-database-neo4j/graph-db-bg.jpg"
 tags: [neo4j, database, flight, airline]

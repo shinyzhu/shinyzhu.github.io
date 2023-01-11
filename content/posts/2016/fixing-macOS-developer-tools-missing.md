@@ -1,7 +1,7 @@
 ---
 title: 如何修复升级 macOS 系统后命令行工具失效的问题
 description: "一种简单的方式修复升级 macOS 后命令行工具失效问题（ xcrun: error: invalid active developer path ）"
-date: 2016-10-08
+date: 2016-10-08T11:00:00+08:00
 lastmod: 2023-01-11
 tags: [macOS, devtool, git, svn]
 featured_image: "/posts/2016/fixing-macOS-developer-tools-missing/post-macOS-Sierria-fallback_screen_large.jpg"

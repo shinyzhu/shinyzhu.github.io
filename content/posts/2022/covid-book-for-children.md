@@ -1,7 +1,7 @@
 ---
 title: "世界读书日我们一起读《新冠病毒儿童读本》"
 description: "这本《新冠病毒儿童读本》是2020年4月的书，面向儿童的读本，解释了冠状病毒和抗议措施。"
-date: 2022-04-23
+date: 2022-04-23T18:00:00+08:00
 lastmod: 2023-01-11
 featured_image: "/posts/2022/covid-book-for-children/covid-book-for-kid-cover.png"
 tags: [reading, covid-19, children]
