@@ -10,6 +10,7 @@ googleAnalytics = "G-6BNX000R1H"
 [params]
 subtitle = "DevRel, Community, Learning etc."
 enableUtterances = true
+enableReadingTime = true
 favicon = "/favicon.ico"
 
 
