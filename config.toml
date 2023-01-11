@@ -1,0 +1,60 @@
+baseURL = "https://shinyzhu.com/"
+DefaultContentLanguage = "en"
+languageCode = "en-us"
+title = "IT's Shiny"
+copyright = "2023, Shiny Zhu, CC BY-NC-SA 4.0"
+theme = "diary"
+# googleAnalytics = "UA-123-45"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    noClasses = true
+    style = ""
+    tabWidth = 4
+
+[params]
+subtitle = "DevRel, Community, Learning etc."
+enableGitalk = true
+favicon = "/favicon.ico"
+
+
+# Twitter Card and Open Graph settings
+enableOpenGraph = true
+enableTwitterCards = true
+title = "IT's Shiny" # will set 'og:site_name'
+description = "DevRel, Community, Learning etc from Shiny Zhu."  # will set 'og:description'
+
+[params.gitalk]
+  owner = "shinyzhu"
+  repo = "shinyzhu/shinyzhu.github.io"
+  client_id = "3be74ff131313be226c2"
+  client_secret = "ddbafc236826d82621bc934fb8a485c3aca59697"
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+[params.utterances]
+repo="shinyzhu/shinyzhu.github.io"
+term="pathname"
+label="Comment"
+theme="preferred-color-scheme"
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 2
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 3
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 1
+[[menu.main]]
+url = "/index.xml"
+name = "RSS Feed"
+weight = 4
