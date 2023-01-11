@@ -116,3 +116,6 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# misc
+.DS_Store
