@@ -1,7 +1,7 @@
 ---
 title: "Hello Shiny World"
 date: 2015-04-24T11:00:00+08:00
-lastmod: 2021-01-11
+lastmod: 2023-01-11
 description: "Hello, world. Again. Echo from Shiny. [2023 updated]"
 tags: [plan, recap]
 featured_image: "/img/home-bg.jpg"
