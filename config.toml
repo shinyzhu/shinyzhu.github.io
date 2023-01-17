@@ -10,7 +10,8 @@ googleAnalytics = "G-6BNX000R1H"
 [params]
     subtitle = "DevRel, Community, Learning etc."
     enableAutoDarkMode = true
-    enableUtterances = true
+    enableUtterances = false
+    enableGiscus = true
     enableReadingTime = true
     favicon = "/favicon.ico"
 
@@ -25,6 +26,20 @@ googleAnalytics = "G-6BNX000R1H"
     term="pathname"
     label="Comment"
     theme="preferred-color-scheme"
+
+[params.giscus]
+    data_repo="shinyzhu/shinyzhu.github.io"
+    data-repo-id="R_kgDOIwZXkQ"    
+    data_category="Comments"
+    data_category_id="DIC_kwDOIwZXkc4CTorA"
+    data_mapping="pathname"
+    data_strict="0"
+    data_reactions_enabled="1"
+    data_emit_metadata="0"
+    data_input_position="bottom"
+    data_theme="preferred_color_scheme"
+    data_lang="en"
+    crossorigin="anonymous"
 
 [[menu.main]]
     url = "/posts"
