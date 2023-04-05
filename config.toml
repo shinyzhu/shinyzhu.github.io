@@ -1,5 +1,5 @@
 baseURL = "https://shinyzhu.com/"
-DefaultContentLanguage = "en"
+defaultContentLanguage = "en"
 languageCode = "en-us"
 title = "IT's Shiny"
 copyright = "2023, Shiny Zhu"
@@ -13,6 +13,8 @@ googleAnalytics = "G-6BNX000R1H"
     enableGiscus = true
     enableReadingTime = true
     favicon = "/favicon.ico"
+    # Microsoft Clarity (https://clarity.microsoft.com/) is a free user behavior recording and analytics tool
+    clarity = "gjcjqcgtzd"
 
     # Twitter Card and Open Graph settings
     enableOpenGraph = true
