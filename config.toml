@@ -2,12 +2,12 @@ baseURL = "https://shinyzhu.com/"
 defaultContentLanguage = "en"
 languageCode = "en-us"
 title = "IT's Shiny"
-copyright = "2023, Shiny Zhu"
+copyright = "2023, Shiny Zhu, CC BY-NC-SA 4.0"
 theme = "diary"
 googleAnalytics = "G-6BNX000R1H"
 
 [params]
-    subtitle = "DevRel, Community, Learning etc."
+    subtitle = "Building Memories"
     enableAutoDarkMode = true
     enableUtterances = false
     enableGiscus = true
