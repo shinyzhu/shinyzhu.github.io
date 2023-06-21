@@ -24,7 +24,7 @@ googleAnalytics = "G-6BNX000R1H"
 
 [params.giscus]
     data_repo = "shinyzhu/shinyzhu.github.io"
-    data-repo-id = "R_kgDOIwZXkQ"    
+    data_repo_id = "R_kgDOIwZXkQ"    
     data_category = "Comments"
     data_category_id = "DIC_kwDOIwZXkc4CTorA"
     data_mapping = "pathname"
