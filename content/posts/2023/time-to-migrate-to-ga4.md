@@ -11,6 +11,8 @@ comment: true
 
 # 是时候迁移 Google 分析到 GA4 了
 
+> 题图使用 [Lexica](https://lexica.art/aperture) 生成，Prompt 为：web analytics in morden age
+
 网站统计系统千千万，最终还是要用回 Google Analytics。我记得很早之前使用阿江统计，那还是 ASP 的时代。后来自己建博客就一直使用 Google 分析了，虽然也断断续续使用过别的一些系统，但最终还是 GA 是这个领域的标杆。
 
 如今，标杆要升级换代了。
@@ -69,16 +71,13 @@ comment: true
 
 ### Hugo 如何更新 GA 跟踪代码？
 
-我的博客是用的 Hugo 搭建，配置 GA 是设置跟踪代码即可：
+我的博客是用的 Hugo 搭建，在文件: `config.toml` 里配置 GA 跟踪代码即可：
 
 ```toml
-//file: config.toml
 googleAnalytics = "G-6BNX000R1H"
 ```
 
-然后发布就可以正常工作了。
-
-[如果不行](https://github.com/AmazingRise/hugo-theme-diary/issues/154)，可以等待一段时间看看有没有数据。
+然后发布就可以正常工作了。[如果不行](https://github.com/AmazingRise/hugo-theme-diary/issues/154)，可以等待一段时间看看有没有数据。
 
 所有以上步骤都在“[设置助手](https://support.google.com/analytics/answer/10110290)”里有详细的提示。
 
