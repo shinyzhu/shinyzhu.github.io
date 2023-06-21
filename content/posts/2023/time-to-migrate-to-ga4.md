@@ -1,7 +1,7 @@
 ---
 title: "是时候迁移 Google 分析到 GA4 了"
 description: "It's time to migrate your Google Analytics to the new GA4."
-featured_image: "/posts/2023/time-to-migrate-to-ga4/ga4-countdown.png"
+featured_image: "/posts/2023/time-to-migrate-to-ga4/lexica-web-analytics-in-morden-age.jpg"
 date: 2023-06-20T13:40:00+08:00
 lastmod: 2023-06-20
 categories: DevTool
