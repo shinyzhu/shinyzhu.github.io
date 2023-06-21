@@ -7,7 +7,7 @@ theme = "diary"
 googleAnalytics = "G-6BNX000R1H"
 
 [params]
-    subtitle = "Building Memories"
+    subtitle = "Builder & Enabler"
     enableAutoDarkMode = true
     enableUtterances = false
     enableGiscus = true
@@ -20,7 +20,7 @@ googleAnalytics = "G-6BNX000R1H"
     enableOpenGraph = true
     enableTwitterCards = true
     title = "IT's Shiny" # will set 'og:site_name'
-    description = "DevRel, Community, Learning etc from Shiny Zhu." # will set 'og:description'
+    description = "Shiny is building apps for people and helping other developers building." # will set 'og:description'
 
 [params.giscus]
     data_repo = "shinyzhu/shinyzhu.github.io"
