@@ -1,8 +1,9 @@
+title = "IT's Shiny"
 baseURL = "https://shinyzhu.com/"
+relativeURLs = "true"
 defaultContentLanguage = "en"
 languageCode = "en-us"
-title = "IT's Shiny"
-copyright = "2023, Shiny Zhu, CC BY-NC-SA 4.0"
+copyright = "2023, Shiny Zhu"
 theme = "diary"
 googleAnalytics = "G-6BNX000R1H"
 
@@ -14,7 +15,7 @@ googleAnalytics = "G-6BNX000R1H"
     enableReadingTime = true
     favicon = "/favicon.ico"
     # Microsoft Clarity (https://clarity.microsoft.com/) is a free user behavior recording and analytics tool
-    clarity = "gjcjqcgtzd"
+    #clarity = "gjcjqcgtzd"
 
     # Twitter Card and Open Graph settings
     enableOpenGraph = true
