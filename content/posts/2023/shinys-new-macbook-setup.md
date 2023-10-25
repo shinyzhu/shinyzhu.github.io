@@ -2,7 +2,7 @@
 title: "Shiny's New MacBook Setup in late 2023"
 description: "Setups and preferences for my new MacBook Pro for building apps."
 date: 2023-10-24T10:24:00+08:00
-lastmod: 2023-10-24
+lastmod: 2023-10-25
 tags: [gadget, macbook, setup]
 categories: Blog
 featured_image: "/posts/2023/shinys-new-macbook-setup/new-macbook-setup-banner.png"
@@ -93,6 +93,10 @@ Enable scroll when editing file like `nano`. [ref here](https://stackoverflow.co
 
 ![iterm2-scroll-edit](/posts/2023/shinys-new-macbook-setup/iterm2-scroll-edit.png)
 
+I changed some settings for my profile.
+
+Window size to: `120 x 32`
+
 ### Install [Oh-My-Zsh](https://ohmyz.sh/#install)
 
 ```sh
@@ -133,10 +137,6 @@ Then update to your favorite [theme](https://github.com/ohmyzsh/ohmyzsh/wiki/The
 ```sh
 ZSH_THEME="mgutz"
 ```
-
-I changed some settings for my profile.
-
-Window size to: 120 x 32
 
 ### Install [Homebrew](https://brew.sh/)
 
@@ -262,8 +262,8 @@ Now let me list apps I use on my MacBook.
 - **[Typora](https://typora.io/)** or [China site](https://typoraio.cn/): Markdown editor.
 - **[Obsidian](https://obsidian.md/)** -  private and flexible writing and notes app.
 - **[Xmind](https://xmind.app/)** - The full-featured mind mapping and brainstorming app.
-- ~~Evernote: Uninstalled and not recommended.~~
-- ~~Notion: Uninstalled and not recommended~~
+- ~~Evernote: Removed and not recommended.~~
+- ~~Notion: Removed and not recommended~~
 - Microsoft Office: install from Mac App Store. I have a family subscription.
 - Apple Office: install from Mac App Store
 - **[GitHub Desktop](https://desktop.github.com/)**
@@ -299,7 +299,7 @@ source ~/.zshrc
 
 I need to host live events or webinars sometimes. I use audio interface to handle audio loopback. And I also have AirPods which can automatically connect to MacBook. It will be annoying especially when you are in an event. So you'd better to disable the automatically connection.
 
-![wireless-headphone-off](/posts/2023/shinys-new-macbook-setup/wireless-headphone-off.png)
+![wireless-headphone-off](/posts/2023/shinys-new-macbook-setup/wireless-headphone-off.jpg)
 
 ## Resources
 
@@ -310,4 +310,4 @@ I followed these posts for setting up my MacBook. You can check them out too.
 - https://www.sqlsec.com/2023/07/ventura.html
 - https://www.cnblogs.com/jinjiangongzuoshi/p/5373711.html
 
-Finally and feedbacks are welcome.
+Any feedbacks and comments are welcome.
