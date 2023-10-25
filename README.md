@@ -18,10 +18,12 @@ Tech stack of this blog:
 
 CI/CD:
 
-- [GitHub Actions](https://docs.github.com/en/actions): A continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline.
+- ~~[GitHub Actions](https://docs.github.com/en/actions): A continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline.~~
 
 Hosting:
 
-- [GitHub Pages](https://docs.github.com/en/pages): A static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub.
+- ~~[GitHub Pages](https://docs.github.com/en/pages): A static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub.~~
 
-You can do it.
+- [Vercel](https://vercel.com/) Hobby plan. It's free and really fast.
+
+Hope you enjoy it.
