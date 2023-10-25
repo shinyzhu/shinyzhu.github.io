@@ -37,6 +37,10 @@ googleAnalytics = "G-6BNX000R1H"
     data_lang = "en"
     crossorigin = "anonymous"
 
+[Author]
+    name = "Shiny Zhu"
+    email = "shiny@shinyzhu.com"
+
 [[menu.main]]
     url = "/posts"
     name = "Posts"
