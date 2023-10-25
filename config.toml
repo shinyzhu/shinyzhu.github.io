@@ -3,13 +3,13 @@ baseURL = "https://shinyzhu.com/"
 relativeURLs = "true"
 defaultContentLanguage = "en"
 languageCode = "en-us"
-copyright = "2023, Shiny Zhu"
+copyright = "2023, Shiny Zhu. CC-BY-NC 4.0"
 theme = "diary"
 googleAnalytics = "G-6BNX000R1H"
 
 [params]
-    subtitle = "Builder & Enabler"
-    enableAutoDarkMode = true
+    subtitle = "Builder && Enabler"
+    enableAutoDarkMode = false
     enableUtterances = false
     enableGiscus = true
     enableReadingTime = true
@@ -21,7 +21,7 @@ googleAnalytics = "G-6BNX000R1H"
     enableOpenGraph = true
     enableTwitterCards = true
     title = "IT's Shiny" # will set 'og:site_name'
-    description = "Shiny is building apps for people and helping other developers building." # will set 'og:description'
+    description = "Shiny is building apps and helping developers build things." # will set 'og:description'
 
 [params.giscus]
     data_repo = "shinyzhu/shinyzhu.github.io"
@@ -50,13 +50,9 @@ googleAnalytics = "G-6BNX000R1H"
     name = "Tags"
     weight = 3
 [[menu.main]]
-    url = "/index.xml"
-    name = "RSS"
+    url = "/about"
+    name = "About"
     weight = 4
-[[menu.main]]
-    url = "https://github.com/shinyzhu/shinyzhu.github.io"
-    name = "GitHub"
-    weight = 5
 
 [taxonomies]
    tag = "tags"
