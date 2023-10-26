@@ -63,7 +63,16 @@ You'd download the official Google Chrome from [this URL](http://www.google.cn/c
 
 And then set it as the Default web browser under "Desktop & Dock" in the system settings.
 
-### Install command line tools:
+#### Extensions I like
+
+- [Adblock Plus](https://adblockplus.org/) - Surf the web with no annoying ads.
+- [Hypercrx](https://crx.hypertrons.io/) - Tracking, mining and insight into open source projects and developer relationships.
+- [Language Reactor](https://www.languagereactor.com/) - a powerful toolbox for learning languages.
+- [Immersive Translate](https://immersivetranslate.com/) - In place translation tool.
+- [FireShot](https://getfireshot.com/) - Take Webpage Screenshots Entirely.
+- [MetaMask](https://metamask.io/) - A crypto wallet & gateway to blockchain apps.
+
+### Install command line tools
 
 Open the "Terminal.app" and run:
 
@@ -212,6 +221,10 @@ Follow the "Next steps" above to configure the `PATH` for `brew`.
 
 Don't click the big button if you're using Apple silicon CPU (M1 or M2) like me. You'd click the text under it.
 
+Login with your GitHub account. 
+
+And correctly set your name and email for git in the `Settings` window. This will set your `~/.gitconfig` as well.
+
 ### Install [Visual Studio Code](https://code.visualstudio.com/)
 
 It's a universal build. Great. 
@@ -264,8 +277,8 @@ Now let me list apps I use on my MacBook.
 - **[Xmind](https://xmind.app/)** - The full-featured mind mapping and brainstorming app.
 - ~~Evernote: Removed and not recommended.~~
 - ~~Notion: Removed and not recommended~~
-- Microsoft Office: install from Mac App Store. I have a family subscription.
-- Apple Office: install from Mac App Store
+- **Microsoft Office**: install from Mac App Store. I have a family subscription.
+- **Apple Office**: install from Mac App Store
 - **[GitHub Desktop](https://desktop.github.com/)**
 - **[Visual Studio Code](https://code.visualstudio.com/)**
 - **[Docker Desktop](https://www.docker.com/products/docker-desktop/)**
