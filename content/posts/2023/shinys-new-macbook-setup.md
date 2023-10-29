@@ -258,6 +258,20 @@ You can run `source .zshrc` to use `dotnet` in your current terminal session.
 
 Same as above.
 
+And [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) too (with `curl` [this time](https://www.digitalocean.com/community/tutorials/workflow-downloading-files-curl)):
+
+```sh
+apps % curl -LO https://yarnpkg.com/latest.tar.gz
+apps % tar zvxf latest.tar.gz
+apps % mv yarn-v1.22.19 yarn
+apps % nano ~/.zshrc
+
+# User configuration
+
+# Yarn
+export PATH=$PATH:/Users/shiny/apps/yarn/bin
+```
+
 ### Install [Go](https://go.dev/doc/install)
 
 Still stay the same as above.
