@@ -57,6 +57,10 @@ googleAnalytics = "G-6BNX000R1H"
     url = "/about"
     name = "About"
     weight = 4
+[[menu.main]]
+    url = "/index.xml"
+    name = "RSS"
+    weight = 5
 
 [taxonomies]
    tag = "tags"
