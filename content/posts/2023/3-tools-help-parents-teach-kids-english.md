@@ -128,18 +128,20 @@ Language Reactor 的主要功能包括视频字幕翻译和学习辅助，文本
 比如，我们用《爱丽丝梦游仙境》第一章的前3段：
 
 > Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversations?”
+>
 
 > So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.
+>
 
 > There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself, “Oh dear! Oh dear! I shall be late!” (when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.
 
 这一段音频就是使用 Language Reactor 朗读的，可以听听看效果。
 
-[自己录的]
+<audio src="/posts/2023/3-tools-help-parents-teach-kids-english/Alice-LR.mp3"></audio>
 
-还有网上找到这一段真人朗读。
+还有[网上找到这一段](https://soundcloud.com/audible/alices-adventures-in-wonderland)真人朗读。
 
-https://soundcloud.com/audible/alices-adventures-in-wonderland
+<audio src="/posts/2023/3-tools-help-parents-teach-kids-english/Alice-SC.mp3"></audio>
 
 ## 结束语
 
