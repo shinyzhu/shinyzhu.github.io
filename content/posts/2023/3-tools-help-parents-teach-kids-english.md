@@ -139,11 +139,11 @@ Language Reactor 的主要功能包括视频字幕翻译和学习辅助，文本
 
 这一段音频就是使用 Language Reactor 朗读的，可以听听看效果。
 
-<audio src="https://res.cloudinary.com/shinary/video/upload/f_auto:video,q_auto/v1/blog/wmslmmgtfzrhsmskp8w8"></audio>
+{{< audioplayer src="https://res.cloudinary.com/shinary/video/upload/f_auto:video,q_auto/v1/blog/wmslmmgtfzrhsmskp8w8" >}}
 
 还有[网上找到这一段](https://soundcloud.com/audible/alices-adventures-in-wonderland)真人朗读。
 
-<audio src="https://res.cloudinary.com/shinary/video/upload/f_auto:video,q_auto/v1/blog/dfvwa7hd5oazesxutofd"></audio>
+{{< audioplayer src="https://res.cloudinary.com/shinary/video/upload/f_auto:video,q_auto/v1/blog/dfvwa7hd5oazesxutofd" >}}
 
 ## 结束语
 
