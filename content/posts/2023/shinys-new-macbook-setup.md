@@ -326,7 +326,7 @@ source ~/.zshrc
 
 I need to host live events or webinars sometimes. I use audio interface to handle audio loopback. And I also have AirPods which can automatically connect to MacBook. It will be annoying especially when you are in an event. So you'd better to disable the automatically connection.
 
-![wireless-headphone-off](/posts/2023/shinys-new-macbook-setup/wireless-headphone-off.jpg)
+![wireless-headphone-off](/posts/2023/shinys-new-macbook-setup/wireless-headphone-off.png)
 
 ## Resources
 
