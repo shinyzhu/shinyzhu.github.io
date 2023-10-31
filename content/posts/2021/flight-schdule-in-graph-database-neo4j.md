@@ -2,12 +2,13 @@
 title: "我的第一个图数据模型：使用Neo4j存储航班计划数据"
 description: "Neo4j是图数据库平台，存储关联数据。"
 date: 2021-09-05T11:00:00+08:00
-lastmod: 2023-01-11
-featured_image: "/posts/2021/flight-schdule-in-graph-database-neo4j/graph-db-bg.jpg"
+lastmod: 2023-10-31
+categories: Projects
 tags: [neo4j, database, flight, airline]
-categories: Dev
-comment : true
+featured_image: "/posts/2021/flight-schdule-in-graph-database-neo4j/graph-db-bg.jpg"
 ---
+
+## 缘起
 
 最近我一直在使用图数据库平台[Neo4j](https://neo4j.com)。图数据库（Graph Database）是一种将数据之间的关系视为与数据本身同样重要的数据库，它使用了图数据结构。现实世界的数据都是相互关联的，我们不管从什么角度分析业务，都需要处理数据之间的关系。图数据库就非常适合用来管理高度连接的数据和复杂的查询。
 

@@ -2,11 +2,10 @@
 title: "一句命令帮您整理腾讯问卷的附件"
 description: "腾讯问卷的附件重命名脚本，希望你用得上"
 date: 2017-08-28T11:00:00+08:00
-lastmod: 2023-01-11
+lastmod: 2023-10-31
+categories: DevTools
+tags: [python, qqwj, survey, data]
 featured_image: "/posts/2017/qqwj-photos-match/post-qqwj-header.jpg"
-tags: [python]
-categories: Dev
-comment : true
 ---
 
 ## 腾讯问卷

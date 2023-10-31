@@ -2,11 +2,10 @@
 title: "四个步骤掌握费曼学习法"
 description: "费曼学习法帮助你快速掌握新知识。"
 date: 2022-04-17T11:00:00+08:00
-lastmod: 2023-01-11
-featured_image: "/posts/2022/intro-feynman-technique-learning/FeynmanTechnique.jpg"
-tags: [learning, feynman]
+lastmod: 2023-10-31
 categories: Learning
-comment : true
+tags: [feynman, strategy]
+featured_image: "/posts/2022/intro-feynman-technique-learning/FeynmanTechnique.jpg"
 ---
 
 ## 什么是费曼学习法？

@@ -2,14 +2,13 @@
 title: "翻旧博客：IE8的Developer Tools只是个玩具"
 description: "This is a refresh of my old blog post in 2008."
 date: 2023-01-14T16:30:00+08:00
-lastmod: 2023-01-14
-tags: [dev, web2, seo]
+lastmod: 2023-10-31
+categories: Projects
+tags: [web, seo, frontend]
 featured_image: "/posts/2023/refresh-ie8-dev-tool-xutour/shiny-cnblogs-ie-xutour.png"
-categories: Dev
-comment: true
 ---
 
-## 翻旧博客
+## 这是一篇很久以前的博客
 
 最近在想着迁移之前博客的文章过来，发现了这样一篇文章。
 
@@ -19,7 +18,7 @@ comment: true
 
 ![shiny-cnblogs-ie-xutour](/posts/2023/refresh-ie8-dev-tool-xutour/shiny-cnblogs-ie-xutour.png)
 
-以下是原文：
+以下是略作修改过的原文：
 
 ---
 
@@ -35,7 +34,7 @@ comment: true
 
 测试浏览器：IE8 beta 1 for XP 和 Firefox 2.0.0.12
 
-图1。IE8下的页面（~~点开看大图~~）
+图1。IE8下的页面
 
 ![img](/posts/2023/refresh-ie8-dev-tool-xutour/iexutour.jpg)
 

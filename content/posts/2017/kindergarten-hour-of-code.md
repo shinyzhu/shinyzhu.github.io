@@ -2,11 +2,10 @@
 title: "如何让孩子爱上游戏和编程"
 description: "参加编程一小时探秘编程游戏，让孩子在游戏中学习计算思维"
 date: 2017-07-31T11:00:00+08:00
-lastmod: 2023-01-11
-featured_image: "/posts/2017/kindergarten-hour-of-code/0.jpeg"
-tags: ["hour of code", stem]
+lastmod: 2023-10-31
 categories: STEM
-comment : true
+tags: [hour-of-code, stem, children]
+featured_image: "/posts/2017/kindergarten-hour-of-code/0.jpeg"
 ---
 
 ## 爸爸助教活动

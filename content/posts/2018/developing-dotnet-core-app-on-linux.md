@@ -2,11 +2,10 @@
 title: "面向Linux环境的.NET Core入门教程"
 description: "跟我一起在Linux平台开发和部署.NET Core应用"
 date: 2018-03-10T11:00:00+08:00
-lastmod: 2023-01-11
-featured_image: "/posts/2018/developing-dotnet-core-app-on-linux/disc-cover-1489083.jpg"
+lastmod: 2023-10-31
+categories: DevTools
 tags: [dotnet, docker, linux]
-categories: Dev
-comment : true
+featured_image: "/posts/2018/developing-dotnet-core-app-on-linux/disc-cover-1489083.jpg"
 ---
 
 ## 认识.NET Core

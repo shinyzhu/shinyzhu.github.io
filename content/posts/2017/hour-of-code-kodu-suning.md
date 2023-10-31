@@ -2,11 +2,10 @@
 title: "Hour of Code - Kodu少儿编程思维训练营活动后记"
 description: "MVP社区与苏宁微软零售店携手举办 “Hour of Code - Kodu少儿编程思维训练营” 公益活动在上海浦东苏宁微软零售店成功举办"
 date: 2017-04-16T11:00:00+08:00
-lastmod: 2023-01-11
-tags: ["hour of code", stem]
-featured_image: "/posts/2017/hour-of-code-kodu-suning/hour-of-code-banner.jpg"
+lastmod: 2023-10-31
 categories: STEM
-comment : true
+tags: [hour-of-code, stem, children, mvp]
+featured_image: "/posts/2017/hour-of-code-kodu-suning/hour-of-code-banner.jpg"
 ---
 
 ## 科学技术是第一生产力
@@ -49,8 +48,8 @@ comment : true
 
 本次训练营用到的软件Kodu可以免费获得，可以随时让孩子们尝试。
 
->相关资源：
->
->1. [Kodu Game Lab](https://www.kodugamelab.com)
->2. [编程一小时 Hour of Code](https://hourofcode.com/cn)
+### 相关资源：
+
+1. [Kodu Game Lab](https://www.kodugamelab.com)
+2. [编程一小时 Hour of Code](https://hourofcode.com/cn)
 

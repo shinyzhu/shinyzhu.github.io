@@ -1,12 +1,29 @@
 ---
-title: "Hello Shiny World"
+title: "Hello World, Welcome to IT's Shiny"
+description: "This is Shiny's relaunched blog site."
 date: 2015-04-24T11:00:00+08:00
-lastmod: 2023-01-11
-description: "Hello, world. Again. Echo from Shiny. [2023 updated]"
+lastmod: 2023-10-31
+categories: Blog
 tags: [plan, recap]
 featured_image: "/img/home-bg.jpg"
-categories: Blog
-comment : true
+---
+
+> 最后更新于 2023-10-31
+
+请阅读“[关于](/about)”。
+
+## 欢迎来到 IT's Shiny
+
+本博客系统采用 [Hugo](https://gohugo.io)，主题采用 [diary](https://github.com/shinyzhu/hugo-theme-diary)，源代码地址：[https://github.com/shinyzhu/shinyzhu.github.io](https://github.com/shinyzhu/shinyzhu.github.io)。部署在 ~~GitHub Pages~~ [Vercel](https://vercel.com/)。
+
+本博客的 IT 的意思是“Information Techology”（信息技术），也可以是“it”。
+
+打算发布的内容包括技术分享、开发者关系、职业成长、学习、带娃等方面。
+
+欢迎交流。
+
+以下是上次的更新内容：
+
 ---
 
 > 再次更新于 2023年1月11日
