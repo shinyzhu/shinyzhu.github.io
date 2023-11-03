@@ -1,12 +1,11 @@
 ---
-title: "About Shiny"
-description: "Who Shiny is and what he is doing."
-date: 2015-04-24T10:24:00+08:00
-lastmod: 2023-10-24
+title: "About Shiny And This Blog"
+description: "Introducing you to the author Shiny and this blog IT's Shiny."
+date: 2015-04-24T10:00:00+08:00
+lastmod: 2023-10-31
 featured_image: "/img/post-bg-1.jpg"
 images: ["/img/post-bg-1.jpg"]
-comment: true
 hidden: true
 ---
 
-## About Shiny Zhu
+## 🤗 Welcome
