@@ -38,6 +38,7 @@ gitGraph TB:
     commit id: "App Dev: 2009"
     checkout community
     commit id: "MVP Award: 2009"
+    commit id: "MVP Award: 2010"
     checkout main
     commit id: "Got Married: 2010" tag: "2.0"
     checkout developer
