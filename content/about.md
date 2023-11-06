@@ -13,7 +13,7 @@ hidden: true
 This is a `mermaid` diagram to show my career journey:
 
 ```mermaid
-gitGraph
+gitGraph TB:
     commit id: "Born: 1983" tag: "0.1"
     commit id: "Started Learning CS: 2002"
     branch developer
@@ -56,7 +56,7 @@ gitGraph
     commit id: "MVP Award: 2016"
     commit id: "MVP Award: 2017"
     checkout developer
-    commit id: "Data Archetect: 2018"
+    commit id: "Data Architect: 2018"
     checkout community
     commit id: "MVP Award: 2018"
     commit id: "MVP Award: 2019"
