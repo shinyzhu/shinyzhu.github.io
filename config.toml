@@ -2,7 +2,7 @@ title = "IT's Shiny"
 baseURL = "https://shinyzhu.com/"
 defaultContentLanguage = "en"
 languageCode = "en-us"
-copyright = "CC BY-NC 4.0 DEED"
+copyright = "Shiny Zhu 2023"
 theme = "diary"
 googleAnalytics = "G-6BNX000R1H"
 
