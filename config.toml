@@ -7,7 +7,7 @@ theme = "diary"
 googleAnalytics = "G-6BNX000R1H"
 
 [params]
-    subtitle = "Builder && Enabler"
+    subtitle = "A DevRel Practitioner"
     enableAutoDarkMode = false
     enableUtterances = false
     enableGiscus = true
@@ -20,8 +20,8 @@ googleAnalytics = "G-6BNX000R1H"
     enableOpenGraph = true
     enableTwitterCards = true
     title = "IT's Shiny" # will set 'og:site_name'
-    description = "Hi, I am a full stack developer and a DevRel practitioner. I'm sharing computer programming skills here." # will set 'og:description'
-    images = ['/img/card.png'] # will set 'og:image' and twitter card
+    description = "A full stack developer and DevRel practitioner here." # will set 'og:description'
+    images = ['/img/open-graph-card.jpg'] # will set 'og:image' and twitter card
 
 [params.giscus]
     data_repo = "shinyzhu/shinyzhu.github.io"
@@ -40,6 +40,9 @@ googleAnalytics = "G-6BNX000R1H"
 [Author]
     name = "Shiny Zhu"
     email = "shiny@shinyzhu.com"
+
+[params.social]
+    twitter = 'shinyzhu'
 
 [[menu.main]]
     url = "/posts"
