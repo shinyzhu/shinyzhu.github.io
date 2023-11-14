@@ -13,14 +13,15 @@ googleAnalytics = "G-6BNX000R1H"
     enableGiscus = true
     enableReadingTime = true
     favicon = "/favicon.ico"
-    # Microsoft Clarity (https://clarity.microsoft.com/) is a free user behavior recording and analytics tool
-    #clarity = "gjcjqcgtzd"
+    # Microsoft Clarity
+    clarity = "gjcjqcgtzd"
 
     # Twitter Card and Open Graph settings
     enableOpenGraph = true
     enableTwitterCards = true
     title = "IT's Shiny" # will set 'og:site_name'
-    description = "Shiny is building apps and helping developers build things." # will set 'og:description'
+    description = "Hi, I am a full stack developer and a DevRel practitioner. I'm sharing computer programming skills here." # will set 'og:description'
+    images = ['/img/card.png'] # will set 'og:image' and twitter card
 
 [params.giscus]
     data_repo = "shinyzhu/shinyzhu.github.io"
