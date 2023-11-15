@@ -1,5 +1,5 @@
 ---
-title: "About Shiny And This Blog"
+title: "About Shiny And The Blog: IT's Shiny"
 description: "Introducing you to the author Shiny and this blog IT's Shiny."
 date: 2015-04-24T10:00:00+08:00
 lastmod: 2023-10-31
@@ -9,6 +9,16 @@ hidden: true
 ---
 
 ## 🤗 Welcome
+
+Hi, Welcome to **IT's Shiny**. My name is Shiny and here is my blog.
+
+I'm a **full stack developer** and a **DevRel** practitioner. I started my developer career 15+ years ago as a front end engineer. As times fly I've been participated in server side, data platform, data warehouse, mobile projects. The most industry I've worked in is travel. About 5 years ago I started my career into DevRel.
+
+I am also an **open-source** fan, **life-long learner** and last but least a **procrastinator**.
+
+I'm now Open To Work. Looking for DevRel roles. Please learn more on my [LinkedIn](https://www.linkedin.com/in/shinyzhu/) page and it'd be appreciated if you can share my info.
+
+### Career Journey
 
 This is a `mermaid` diagram to show my career journey:
 
@@ -85,5 +95,5 @@ gitGraph TB:
     commit id: "Open To Work" type: HIGHLIGHT
 ```
 
-Find more on my [LinkedIn](https://www.linkedin.com/in/shinyzhu/) page.
+
 
