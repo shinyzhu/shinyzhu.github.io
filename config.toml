@@ -1,13 +1,13 @@
-title = "IT's Shiny"
+title = "IM Shiny"
 baseURL = "https://shinyzhu.com/"
 defaultContentLanguage = "en"
 languageCode = "en-us"
-copyright = "Shiny Zhu 2023"
+copyright = "Shiny 2023"
 theme = "diary"
 googleAnalytics = "G-6BNX000R1H"
 
 [params]
-    subtitle = "A DevRel Practitioner"
+    subtitle = "Full Stack + DevRel"
     enableAutoDarkMode = false
     enableUtterances = false
     enableGiscus = true
@@ -19,7 +19,7 @@ googleAnalytics = "G-6BNX000R1H"
     # Twitter Card and Open Graph settings
     enableOpenGraph = true
     enableTwitterCards = true
-    title = "IT's Shiny" # will set 'og:site_name'
+    title = "IM Shiny" # will set 'og:site_name'
     description = "A full stack developer and DevRel practitioner here." # will set 'og:description'
     images = ['/img/open-graph-card.jpg'] # will set 'og:image' and twitter card
 
@@ -38,7 +38,7 @@ googleAnalytics = "G-6BNX000R1H"
     crossorigin = "anonymous"
 
 [Author]
-    name = "Shiny Zhu"
+    name = "Shiny"
     email = "shiny@shinyzhu.com"
 
 [params.social]
