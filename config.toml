@@ -1,4 +1,4 @@
-title = "Shiny Zhu"
+title = "👨🏻‍💻 Shiny Zhu"
 baseURL = "https://shinyzhu.com/"
 defaultContentLanguage = "en"
 languageCode = "en-us"
@@ -7,7 +7,7 @@ theme = "diary"
 googleAnalytics = "G-6BNX000R1H"
 
 [params]
-    subtitle = "Full Stack + DevRel"
+    subtitle = "⌨️ Full Stack + 🥑 DevRel"
     enableAutoDarkMode = false
     enableUtterances = false
     enableGiscus = true
@@ -46,19 +46,19 @@ googleAnalytics = "G-6BNX000R1H"
 
 [[menu.main]]
     url = "/posts"
-    name = "Posts"
+    name = "Posts 📑"
     weight = 1
 [[menu.main]]
     url = "/categories"
-    name = "Categories"
+    name = "Categories 🗂️"
     weight = 2
 [[menu.main]]
     url = "/tags"
-    name = "Tags"
+    name = "Tags 🏷️"
     weight = 3
 [[menu.main]]
     url = "/about"
-    name = "About"
+    name = "About 👨🏻‍💻"
     weight = 4
 
 [taxonomies]
