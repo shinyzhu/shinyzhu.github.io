@@ -276,6 +276,43 @@ export PATH=$PATH:/Users/shiny/apps/yarn/bin
 
 Still stay the same as above.
 
+### Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+
+Do you remember that `xcode-select` has installed `ruby`? Haha but it's a little bit outdated. Here I installed Ruby by Homebrew.
+
+```sh
+~ % brew install ruby
+Running `brew update --auto-update`...
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+==> New Casks
+You have 9 outdated formulae installed.
+==> Downloading
+==> Fetching
+==> Installing ruby
+==> Pouring ruby--3.2.2_1.arm64_sonoma.bottle.tar.gz
+==> Caveats
+ruby is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have ruby first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find ruby you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+==> Summary
+```
+
+To use the newer version, let's update the `.zshrc` as suggested above:
+
+``` 
+# Ruby (Installed by Homebrew)
+export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+```
+
 ## More Apps
 
 Now let me list apps I use on my MacBook.
