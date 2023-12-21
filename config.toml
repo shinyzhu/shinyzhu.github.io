@@ -37,10 +37,6 @@ googleAnalytics = "G-6BNX000R1H"
     data_lang = "en"
     crossorigin = "anonymous"
 
-[Author]
-    name = "Shiny"
-    email = "shiny@shinyzhu.com"
-
 [params.social]
     twitter = 'shinyzhu'
 
