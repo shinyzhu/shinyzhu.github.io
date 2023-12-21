@@ -6,6 +6,7 @@ lastmod: 2023-12-21
 tags: [github, linux, nodejs]
 categories: Blog
 featured_image: "/posts/2023/using-github-action-and-systemd-to-deploy-express-app/using-github-action-head.jpg"
+images: ["/posts/2023/using-github-action-and-systemd-to-deploy-express-app/og-card.jpg"]
 ---
 
 This post is to take notes about how to automatically continuous deploy an Express app on GitHub to a virtual machine host by ssh and GitHub Action.
