@@ -2,13 +2,21 @@
 title: "Using GitHub Action and Systemd to Deploy Express App"
 description: "Notes on setting up continuous deployment of a REST API service."
 date: 2023-12-15T18:09:00+08:00
-lastmod: 2023-12-16
+lastmod: 2023-12-21
 tags: [github, linux, nodejs]
 categories: Blog
 featured_image: "/posts/2023/using-github-action-and-systemd-to-deploy-express-app/using-github-action-head.jpg"
 ---
 
-## The API Service
+This post is to take notes about how to automatically continuous deploy an Express app on GitHub to a virtual machine host by ssh and GitHub Action.
+
+Resources I have:
+
+1. A virtual machine with SSH enabled. Hosting the API service.
+2. The API Service is an Express app whose code is managed by GitHub.
+3. GitHub Action for automatic CI/CD.
+
+## The API Service (ExpressJS)
 
 I'm building the app on the WeChat Mini Program platform. It's the front-end of an app that requires an API service backend.
 
@@ -26,7 +34,7 @@ File: `package.json`
 
 I also use `.env` to store secrets and configurations.
 
-## The Hosting
+## The Hosting (Virtual Machine)
 
 [TencentCloud Lighthouse](https://cloud.tencent.com/product/lighthouse) is an affordable hosting especially during promotion seasons. I'm using one comes with 2 cores CPU and 4GB RAM. And built with Ubuntu20.04-Docker20 image.
 
@@ -34,11 +42,11 @@ The API service is hosted as a node service. I don't want to run it in docker.
 
 And I'm using Nginx + SSL to handle requests and as the reverse proxy to the API service.
 
-### Run Express (Node App) as Systemd Service
+### Long Running Express App as Systemd Service
 
-To [run the Express app as a service](https://expressjs.com/en/advanced/pm.html). I use Systemd to do that. (Not pm2 here). And here is the service file:
+To [run the Express app as a service](https://expressjs.com/en/advanced/pm.html). I use Systemd to do that. (Not pm2 here).
 
-File: `/etc/systemd/system/ibkapi.service`
+Here is the service file: `/etc/systemd/system/ibkapi.service`
 
 ```ini
 [Unit]
@@ -67,7 +75,11 @@ WantedBy=multi-user.target
 
 As you can see above. I put a `.env.production` manually into the root `www` folder. If I have a new config to add. I need to `ssh` to the server and edit them in place.
 
-> ❓ So what is your practice for maintaining `.env` in production? Comments are welcome.
+> ❓
+>
+> So what is your practice for maintaining `.env` in production? 
+>
+> Comments are welcome.
 
 ## Continuous Deploying by GitHub Action
 
@@ -132,7 +144,9 @@ sudo ln -s /opt/node/bin/pm2 /usr/bin/pm2
 
 ## Conclusion (Maybe)
 
-This is my setup for deploying and keeping it running of an Express app. It makes me feeling good for making code changes.
+This is my setup for deploying and keeping it running of an Express app.
+
+It makes me feeling good for making code changes.
 
 ## ❤️ Background Story
 
