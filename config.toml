@@ -20,8 +20,8 @@ googleAnalytics = "G-6BNX000R1H"
     enableOpenGraph = true
     enableTwitterCards = true
     title = "Shiny Zhu" # will set 'og:site_name'
-    description = "A full stack developer and DevRel practitioner here." # will set 'og:description'
-    images = ['/img/open-graph-card.jpg'] # will set 'og:image' and twitter card
+    description = "Blog on Full Stack and DevRel and much more." # will set 'og:description'
+    images = ['/img/opengraph-card.png'] # will set 'og:image' and twitter card
 
 [params.giscus]
     data_repo = "shinyzhu/shinyzhu.github.io"
