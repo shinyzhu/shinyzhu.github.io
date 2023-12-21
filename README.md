@@ -61,4 +61,20 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 ```
 
+## Specify Hugo Version on Vercel
+
+If you found layout or page error when after deploying to Vercel. That's because the default Hugo version maybe too old. You can specify the version of Hugo by setting an environment variable.
+
+Here is the steps:
+
+1. Navigate to the Settings tab of your Vercel project.
+
+2. Click the Environment Variables item from the side menus.
+
+3. Add a new env with key `HUGO_VERSION` and value `0.121.1`.
+
+4. Re deploy and you'll get the right Hugo.
+
+![Hugo Version Env](vercel-hugo-env.png)
+
 Enjoy coding and writing. Comments are welcome.
