@@ -76,11 +76,10 @@ WantedBy=multi-user.target
 
 As you can see above. I put a `.env.production` manually into the root `www` folder. If I have a new config to add. I need to `ssh` to the server and edit them in place.
 
-> ❓
+> / ? \
 >
-> So what is your practice for maintaining `.env` in production? 
+> So what is your practice for maintaining `.env` in production? Comments are welcome.
 >
-> Comments are welcome.
 
 ## Continuous Deploying by GitHub Action
 
@@ -141,7 +140,9 @@ sudo ln -s /opt/node/bin/npm /usr/bin/npm
 sudo ln -s /opt/node/bin/pm2 /usr/bin/pm2
 ```
 
-> ❓ What is your approach to manage path?
+> / ? \
+>
+> What is your approach to manage path?
 
 ## Conclusion (Maybe)
 
@@ -149,7 +150,7 @@ This is my setup for deploying and keeping it running of an Express app.
 
 It makes me feeling good for making code changes.
 
-## ❤️ Background Story
+## Background Story
 
 My wife is running a bakery shop. It has been 7 years since 2016.
 
