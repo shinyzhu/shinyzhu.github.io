@@ -58,6 +58,10 @@ Response:
 >
 > Keep in mind that the actual key (`process.env.WX_PAY_KEY`) should be a base64-encoded 256-bit key and that the `nonce` should be unique for every encryption operation to maintain security.
 
+![code-gen-llm-codeium](/posts/2024/suffering-code-gen-by-llms/code-gen-llm-codeium.png)
+
+If you want to try Codeium Pro for free with GPT4. Please use [my referral link](https://codeium.com?referral_id=emh1c2hpbnlAZ21haWwuY29t).
+
 ### ChatGPT 3.5
 
 Chat log:
@@ -133,6 +137,8 @@ Hmm. It seems not use NodeJS to do that.
 > ```
 >
 > Replace the `nonce`, `key`, `associatedData`, and `ciphertext` buffers with your actual values. This function uses Node.js's `crypto.createDecipheriv` method to create a decipher instance with the AES-256-GCM algorithm.
+
+![code-gen-llm-chatgpt](/posts/2024/suffering-code-gen-by-llms/code-gen-llm-chatgpt.png)
 
 ### Claude.ai
 
@@ -260,6 +266,8 @@ Prompt:
 > 3. The `ciphertext` without the last 32 bytes is used as the `encryptedData`.
 >
 > This function assumes that the `ciphertext` is composed of the encrypted data followed by the authentication tag (32 bytes encoded in Base64). If the format is different, you may need to adjust the code accordingly.
+
+![code-gen-llm-claude](/posts/2024/suffering-code-gen-by-llms/code-gen-llm-claude.png)
 
 ## Making It Run
 
