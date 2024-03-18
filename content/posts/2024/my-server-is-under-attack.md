@@ -2,7 +2,7 @@
 title: "My Server Is Under Attack"
 description: "Security is matter: SQL injection, remote code execution, hack .env file..."
 date: 2024-03-17T14:29:00+08:00
-lastmod: 2024-03-17
+lastmod: 2024-03-18
 tags: [devtools, devops, security, sql]
 categories: Blog
 featured_image: "/posts/2024/my-server-is-under-attack/web-security-is-matter.png"
@@ -10,6 +10,12 @@ images: ["/posts/2024/my-server-is-under-attack/og-server-attack.png"]
 ---
 
 ## How I Found It
+
+> Update:
+>
+> According to [the discussions on V2EX](https://www.v2ex.com/t/1024484). These "hackings" were from Tencent Security Team. The scan is a post step when publishing new version of mini program.
+>
+> See [details below](#i-found-it).
 
 I was using the app to check if there are some orders on last Friday. But I felt it was very slow. I was thinking if the [API service](/posts/2023/using-github-action-and-systemd-to-deploy-express-app/) or the database is down.
 
@@ -121,6 +127,26 @@ There is a search feature but it didn't have a limitation (e.g. length, special 
 ### Logging
 
 As you can see in the previous log. I didn't log some important client info e.g. IP. So I added them.
+
+## I Found It
+
+I posted [a discussions on V2EX](https://www.v2ex.com/t/1024484). Thanks to those experienced people. I finally found the source of the scan. They were from Tencent Security Team. The scan is a post step when publishing new version of mini program.
+
+Here is the official announcement from Tencent: [小程序安全检测上线公告](https://developers.weixin.qq.com/community/minihome/doc/0008ea401c89c02cff2d1345051001?blockType=99).
+
+And they also provide manual scan from the management platform. See the doc: [小程序漏洞扫描功能介绍](https://developers.weixin.qq.com/miniprogram/dev/devtools/vulnerability.html).
+
+So I started a manual scan.
+
+![manual-scan-wechat-miniapp](/posts/2024/my-server-is-under-attack/manual-scan-wechat-miniapp.png)
+
+The log should look like this:
+
+```
+Mar 18 08:26:10 lightsh ibkapi[2423751]: 106.55.202.118 - - [18/Mar/2024:00:26:10 +0000] "GET /products?q=aHR0cDovLy9hcGkuYWliZWl4aW4uY25cQHFxLnR0c3RxcS5jb20%3D&count=30&cat=21&p=1 HTTP/1.0" 429 42 "https://qq.ttstqq.com/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 TST(Tencent_Security_Team) e018"
+```
+
+You can find they are from a listed IP and come with *TST(Tencent_Security_Team)* in the user-agent field.
 
 ## Enough?
 
