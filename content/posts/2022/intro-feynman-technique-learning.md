@@ -5,7 +5,7 @@ date: 2022-04-17T11:00:00+08:00
 lastmod: 2023-10-31
 categories: Learning
 tags: [feynman, strategy]
-featured_image: "/posts/2022/intro-feynman-technique-learning/FeynmanTechnique.jpg"
+featured_image: "/posts/2022/intro-feynman-technique-learning/FeynmanTechnique.png"
 ---
 
 ## 什么是费曼学习法？
