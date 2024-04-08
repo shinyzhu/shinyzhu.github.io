@@ -1,8 +1,8 @@
 ---
 title: "Importing Yi9B to Ollama"
 description: "The log of importing Yi-9B LLM model to Ollama library."
-date: 2024-04-07T9:29:00+08:00
-lastmod: 2024-04-07
+date: 2024-04-08T9:29:00+08:00
+lastmod: 2024-04-08
 tags: [llm, ollama, python, ai]
 categories: Blog
 featured_image: "/posts/2024/importing-yi9b-to-ollama/importing-yi9b.jpg"
@@ -254,6 +254,11 @@ shiny@ubuntuinr2:/data/llmbuild/ollama$ du -h -d 1
 ```
 
 It's ok for a build machine.
+
+```sh
+-rw-rw-r--  1 shiny shiny  17G Apr  7 10:06 converted.bin
+-rw-rw-r--  1 shiny shiny 4.7G Apr  7 10:11 quantized.bin
+```
 
 The final model size is 5 GB.
 
