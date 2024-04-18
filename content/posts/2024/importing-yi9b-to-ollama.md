@@ -19,6 +19,12 @@ Or just run it from terminal:
 ollama run shinyzhu/yayi:9b --verbose
 ```
 
+And you can run Yi-9B-200K too:
+
+```sh
+ollama run shinyzhu/yayi:9b-200k --verbose
+```
+
 ## Why I Do This
 
 If you like to run LLM models locally with Ollama like I do.
@@ -297,6 +303,10 @@ It's ok for a build machine.
 ```
 
 The final model size is 5 GB.
+
+### Python venv Error?
+
+If you changed your path like moved to another volume of the `.venv` , you need to re create it.
 
 ## Questions and Further Doings
 
