@@ -210,6 +210,42 @@ Now you can use the `yayi:9b` model like any other models you have.
 
 ![yi9b-cli](/posts/2024/importing-yi9b-to-ollama/yi9b-cli.png)
 
+## [Updated] Update The Model
+
+After about 2 weeks, there are many new commits of the model and Ollama as well. So I decide to re create the model. Here is what I do.
+
+Update Ollama and llama.cpp git repo with these commands:
+
+```sh
+shiny@ubuntuinr2:/data/llmbuild/ollama$ git pull
+shiny@ubuntuinr2:/data/llmbuild/ollama$ git submodule update --remote --merge
+```
+
+Remove "old" files.
+
+```sh
+shiny@ubuntuinr2:/data/llmbuild/ollama$ rm -f converted.bin
+shiny@ubuntuinr2:/data/llmbuild/ollama$ rm -f quantized.bin
+```
+
+Update model repo:
+
+```sh
+shiny@ubuntuinr2:/data/llmbuild/ollama$ cd model/
+shiny@ubuntuinr2:/data/llmbuild/ollama/model$ git pull
+shiny@ubuntuinr2:/data/llmbuild/ollama$ cd ..
+```
+
+Then you are ready to build it again.
+
+```sh
+shiny@ubuntuinr2:/data/llmbuild/ollama$ source llm/llama.cpp/.venv/bin/activate
+(.venv) shiny@ubuntuinr2:/data/llmbuild/ollama$ python llm/llama.cpp/convert.py ./model --outtype f16 --outfile converted.bin
+(.venv) shiny@ubuntuinr2:/data/llmbuild/ollama$ llm/llama.cpp/quantize converted.bin quantized.bin q4_0
+```
+
+Create the model with Ollama and push ti library, and TADA!
+
 ## Fun Facts
 
 Here are some funny points I learned.
