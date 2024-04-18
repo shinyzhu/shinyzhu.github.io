@@ -1,5 +1,5 @@
 ---
-title: "Importing Yi9B to Ollama"
+title: "Importing Yi-9B to Ollama"
 description: "The log of importing Yi-9B LLM model to Ollama library."
 date: 2024-04-08T9:29:00+08:00
 lastmod: 2024-04-08
@@ -244,7 +244,7 @@ shiny@ubuntuinr2:/data/llmbuild/ollama$ source llm/llama.cpp/.venv/bin/activate
 (.venv) shiny@ubuntuinr2:/data/llmbuild/ollama$ llm/llama.cpp/quantize converted.bin quantized.bin q4_0
 ```
 
-Create the model with Ollama and push ti library, and TADA!
+Create the model with Ollama and push to library, and TADA!
 
 ## Fun Facts
 
