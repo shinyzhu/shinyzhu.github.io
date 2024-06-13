@@ -13,6 +13,8 @@ This post is to introduce a solution to the Docker issues that may only happen i
 
 ## 重新安装 Docker Engine
 
+> 重要更新：不需要删除已安装的 Docker，只需要更换源即可。
+
 我个人更喜欢用[官方来源](https://docs.docker.com/engine/install/ubuntu/)安装 Docker，但最近由于镜像和网络的问题，这种方法已经无法更新了：
 
 ```sh
@@ -22,9 +24,11 @@ Cannot initiate the connection to download.docker.com:443 (2a03:2880:f102:183:fa
 Could not connect to download.docker.com:443 (104.244.46.185), connection timed out
 ```
 
-### 卸载 Docker Engine
+### ~~卸载 Docker Engine~~
 
-首先，需要把现在的 Docker 相关软件包卸载。
+请直接跳到换源。
+
+~~首先，需要把现在的 Docker 相关软件包卸载。~~
 
 > 注意：这会丢失所有镜像和容器。记得先备份。
 
@@ -43,7 +47,11 @@ sudo rm -rf /var/lib/containerd
 
 ### 换源 `apt` 安装 Docker
 
-这里通过国内的 `apt` 源进行安装，需要将官方的命令行更换为如下所示：
+这里通过国内的 `apt` 源进行安装。
+
+#### 阿里云
+
+需要将官方的命令行部分更换为如下所示：
 
 ```sh
 curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
@@ -58,15 +66,15 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-或者:
+#### 腾讯云
 
 ```sh
-curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+curl -fsSL https://mirrors.cloud.tencent.com/docker-ce/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 ```
 
 ```sh
 echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://mirrors.cloud.tencent.com/docker-ce/linux/ubuntu \
   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
