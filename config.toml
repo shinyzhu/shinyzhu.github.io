@@ -2,12 +2,12 @@ title = "Shiny Zhu"
 baseURL = "https://shinyzhu.com/"
 defaultContentLanguage = "en"
 languageCode = "en-us"
-copyright = "Shiny Zhu 2023"
+copyright = "Shiny Zhu 2024"
 theme = "diary"
 googleAnalytics = "G-6BNX000R1H"
 
 [params]
-    subtitle = "Full Stack + DevRel"
+    subtitle = "Travel Tech + DevRel"
     enableAutoDarkMode = false
     enableUtterances = false
     enableGiscus = true
@@ -70,3 +70,7 @@ googleAnalytics = "G-6BNX000R1H"
     noClasses = true
     style = "dracula"
     tabWidth = 4
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-6BNX000R1H'
