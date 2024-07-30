@@ -92,8 +92,6 @@ sudo apt-get update
 
 ### 使用腾讯云
 
-### 使用腾讯云
-
 腾讯云可以[参考文档](https://cloud.tencent.com/document/product/1207/45596)直接修改配置：
 
 ```json
