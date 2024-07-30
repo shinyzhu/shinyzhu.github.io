@@ -1,21 +1,19 @@
 ---
-title: "如何在服务器上正常使用 Docker"
-description: "解决 Docker 无法更新，镜像无法拉取的问题。"
+title: "如何解决网络问题实现正常使用 Docker"
+description: "解决 Docker Engine 无法更新，Docker Hub 镜像无法拉取的问题。"
 date: 2024-06-12T13:29:00+08:00
-lastmod: 2024-06-12
+lastmod: 2024-07-30
 tags: [devtools, devops, docker]
 categories: Blog
 featured_image: "/posts/2024/using-docker-in-china-2024/using-docker-in-china-2024.jpg"
 images: ["/posts/2024/using-docker-in-china-2024/ogc-using-docker.jpg"]
 ---
 
-This post is to introduce a solution to the Docker issues that may only happen in China.
+This post is to introduce a solution to the network issues of Docker engine and Docker Hub that may only happen in China.
 
-## 重新安装 Docker Engine
+## 更新 apt 源解决 Docker Engine 的安装和更新问题
 
-> 重要更新：不需要删除已安装的 Docker，只需要更换源即可。
-
-我个人更喜欢用[官方来源](https://docs.docker.com/engine/install/ubuntu/)安装 Docker，但最近由于镜像和网络的问题，这种方法已经无法更新了：
+我是根据[官方安装文档](https://docs.docker.com/engine/install/ubuntu/#installation-methods)安装的 Docker，这种方法会直接从 `download.docker.com` 下载软件包，最近由于网络问题，已经无法更新了：
 
 ```sh
 W: Failed to fetch https://download.docker.com/linux/ubuntu/dists/focal/InRelease
@@ -24,40 +22,23 @@ Cannot initiate the connection to download.docker.com:443 (2a03:2880:f102:183:fa
 Could not connect to download.docker.com:443 (104.244.46.185), connection timed out
 ```
 
-### ~~卸载 Docker Engine~~
+### 更换为可访问的 `apt` 源
 
-请直接跳到换源。
+通过替换为国内的一些课访问的 `apt` 源，这样就可以更新 Docker Engine 了。
 
-~~首先，需要把现在的 Docker 相关软件包卸载。~~
+> 请注意这也取决于源的更新频率，某些源的软件包可能不是最新的。
 
-> 注意：这会丢失所有镜像和容器。记得先备份。
-
-按照[官方文档](https://docs.docker.com/engine/install/ubuntu/#uninstall-docker-engine)，使用如下命令即可：
-
-```sh
-sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
-```
-
-还有删掉数据：
-
-```sh
-sudo rm -rf /var/lib/docker
-sudo rm -rf /var/lib/containerd
-```
-
-### 换源 `apt` 安装 Docker
-
-这里通过国内的 `apt` 源进行安装。
+我这里通过阿里云和腾讯云两种方式作为演示。
 
 #### 阿里云
 
-需要将官方的命令行部分更换为如下所示：
+首先运行如下命令更新 GPG：
 
 ```sh
 curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 ```
 
-然后写入源列表：
+然后更新 apt 源列表文件：
 
 ```sh
 echo \
@@ -68,9 +49,13 @@ echo \
 
 #### 腾讯云
 
+更新 GPG：
+
 ```sh
 curl -fsSL https://mirrors.cloud.tencent.com/docker-ce/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 ```
+
+更新 apt 源：
 
 ```sh
 echo \
@@ -79,19 +64,19 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-再然后，就可以执行安装命令了：
+#### 更新 Docker Engine
+
+现在我们就可以执行更新命令了：
 
 ```sh
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt-get update
 ```
 
-至此，我们 Ubuntu 服务器上的 Docker Engine 就可以正常更新了。
+## 配置 Docker Daemon 解决 Docker Hub 镜像拉取问题
 
-## 配置 Docker daemon
+要正常拉取 Docker Hub 上的镜像，可以在运行 Docker 的机器上配置 `/etc/docker/daemon.json`文件。配置节是`registry-mirrors`，表示通过镜像加速服务访问 Docker Hub。请参考[官方文档](https://docs.docker.com/config/daemon/)。
 
-要正常拉取镜像，还需要配置一下 `daemon.json`文件。
-
-可以参考[官方文档](https://docs.docker.com/config/daemon/)。配置节是`registry-mirrors`。
+我这里也使用阿里云和腾讯云作为演示。
 
 ### 使用阿里云容器镜像服务
 
@@ -99,13 +84,13 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 > 注意：这个地址是私有的，不要公开出去。
 
-```sh
-root@aliecs2:~# tee /etc/docker/daemon.json <<-'EOF'
+```json
 {
   "registry-mirrors": ["https://xxx.mirror.aliyuncs.com"]
 }
-EOF
 ```
+
+### 使用腾讯云
 
 ### 使用腾讯云
 
@@ -117,9 +102,13 @@ EOF
 }
 ```
 
-修改后重新启动 Docker 服务。
+修改保存后重新启动 Docker 服务。
+
+```sh
+sudo systemctl restart docker
+```
 
 然后可以使用 `docker info` 命令来查看是否有配置的镜像地址。
 
-Enjoy!
+### Enjoy!
 
