@@ -270,7 +270,7 @@ Now you can chat with OpenClaw.
 
 You can also see the M2 GPU is burning.
 
-![ollama-gpu-hist](/posts/2026running-openclaw-with-docker-sandbox-and-ollama/ollama-gpu-hist.png)
+![ollama-gpu-hist](/posts/2026/running-openclaw-with-docker-sandbox-and-ollama/ollama-gpu-hist.png)
 
 ## Upcoming actions
 
