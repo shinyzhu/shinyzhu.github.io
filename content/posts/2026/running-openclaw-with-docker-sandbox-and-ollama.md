@@ -183,7 +183,7 @@ nohup node bridge.js &
 
 Let's configure the channels you need.
 
-![openclaw-configure-channels](running-openclaw-with-docker-sandbox-and-ollama/openclaw-configure-channels.png)
+![openclaw-configure-channels](/posts/2026/running-openclaw-with-docker-sandbox-and-ollama/openclaw-configure-channels.png)
 
 Then you need to edit the `openclaw.json` to configure the model.
 
@@ -266,11 +266,11 @@ agent@pocketclaw:sandbox-001$ openclaw gateway --port 18789
 
 Now you can chat with OpenClaw.
 
-![openclaw-chat](running-openclaw-with-docker-sandbox-and-ollama/openclaw-chat.png)
+![openclaw-chat](/posts/2026/running-openclaw-with-docker-sandbox-and-ollama/openclaw-chat.png)
 
 You can also see the M2 GPU is burning.
 
-![ollama-gpu-hist](running-openclaw-with-docker-sandbox-and-ollama/ollama-gpu-hist.png)
+![ollama-gpu-hist](/posts/2026running-openclaw-with-docker-sandbox-and-ollama/ollama-gpu-hist.png)
 
 ## Upcoming actions
 
