@@ -2,7 +2,7 @@ title = "Shiny Zhu"
 baseURL = "https://shinyzhu.com/"
 defaultContentLanguage = "en"
 languageCode = "en-us"
-copyright = "Shiny Zhu 2024"
+copyright = "Shiny Zhu 2026"
 theme = "diary"
 googleAnalytics = "G-6BNX000R1H"
 
@@ -22,6 +22,10 @@ googleAnalytics = "G-6BNX000R1H"
     title = "Shiny Zhu" # will set 'og:site_name'
     description = "Blog on Full Stack and DevRel and much more." # will set 'og:description'
     images = ['/img/opengraph-card.png'] # will set 'og:image' and twitter card
+
+[params.author]
+    name = "Shiny Zhu"
+    email = "shiny@shinyzhu.com"
 
 [params.giscus]
     data_repo = "shinyzhu/shinyzhu.github.io"
